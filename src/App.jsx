@@ -1,8 +1,4 @@
 import {
-  Alert,
-  AlertDescription,
-  AlertIcon,
-  AlertTitle,
   Box,
   CircularProgress,
   CircularProgressIndicator,
@@ -68,7 +64,7 @@ function App() {
               </CircularProgress>
             </GridItem>
             <GridItem mx={"auto"}>
-              <CircularProgress size={"$xs"} value={100} thickness={"$0_5"} >
+              <CircularProgress size={"$xs"} value={100} thickness={"$0_5"}>
                 <CircularProgressIndicator color={"$success10"} />
                 <CircularProgressLabel>
                   <VStack spacing={"$6"}>
